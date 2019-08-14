@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Evolutis_QuickSearch",
+    "type": "magento-module",
+    "license": "Open-Software-License-3.0",
+    "homepage": "",
+    "description": "Improves the Quick Search functionality with weight on each attribute and OR/AND operator for the search query.",
+    "authors": [
+    {
+        "name": "Maillotte",
+        "email": "contact@evolutis.fr"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

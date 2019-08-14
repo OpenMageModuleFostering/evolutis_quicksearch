@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>Evolutis_QuickSearch</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="https://opensource.org/licenses/OSL-3.0">Open Software License 3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Improves the Quick Search functionality with weight on each attribute and OR/AND operator for the search query.</summary>
+    <description>This extension improves the Quick Search functionality of Magento. &#xD;
+It adds a &#x201C;Search weight&#x201D; property on product attributes, with possible values being &#x201C;Low&#x201D;, &#x201C;Normal&#x201D; (the default) and &#x201C;High&#x201D;. For example, you may want to make the &#x201C;Name&#x201D; attribute more important than the others (such as &#x201C;Description&#x201D;).&#xD;
+This can improve the relevance of the first search results, and allow customers to find your products quicker, without having to browse several pages of results.&#xD;
+The extension also allows you to switch between an OR operator and an AND operator for queries with multiple words.</description>
+    <notes>Improves the Quick Search functionality with weight on each attribute and OR/AND operator for the search query.</notes>
+    <authors><author><name>Maillotte</name><user>Pierre-Adrien</user><email>contact@evolutis.fr</email></author></authors>
+    <date>2016-04-28</date>
+    <time>14:08:24</time>
+    <contents><target name="magecommunity"><dir name="Evolutis"><dir name="QuickSearch"><dir name="Helper"><file name="Data.php" hash="7544cf9c5f39994ecd577ca1239e2b8c"/></dir><file name="LICENSE.txt" hash="59563e7be45096d0833dade102989042"/><dir name="Model"><file name="AdminObserver.php" hash="8ae6f8ff7b711157bc9f14a8f0cfcd76"/><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Source"><file name="AndOr.php" hash="e9e41671867d8a7122a1a4da4f45a6a1"/></dir></dir></dir></dir><dir name="Mysql4"><file name="Fulltext.php" hash="d3da05082cd18613eb051689dea80617"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="37a9d8471f04348be93ec72d9fa3f32e"/><file name="config.xml" hash="f55bddaa50ca289bdd9b3e3907c89b73"/><file name="system.xml" hash="27a03095fb2430ebe547bce8e49e70f9"/></dir><dir name="sql"><dir name="evolutis_quicksearch_setup"><file name="mysql4-install-1.0.0.php" hash="b888ba69885a923d3828936ebfb01148"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Evolutis_QuickSearch.xml" hash="5d8c2ad9ca511153281020e31b974d66"/></dir></target><target name="magelocale"><dir name="fr_FR"><file name="Evolutis_QuickSearch.csv" hash="037ebc218d28acde6ee25a434878e14e"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>7.0.0</max></php></required></dependencies>
+</package>
