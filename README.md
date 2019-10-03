@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Improves the Quick Search functionality with weight on each attribute and OR/AND operator for the search query.
